@@ -1,0 +1,164 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Bahnschrift;
+}
+
+.cabeçalho{
+    background-color: #f16baa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 900px;
+    padding: 10px
+}
+
+.menus{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.btnAvaliacao{
+    background-color: #e52f94;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+.banner{
+    background-color: #ffcce2;
+    width: 100%;
+    height: 500px;
+}
+
+.itensBanner img{
+    width: 592px;
+}
+
+.itensBanner h1{
+    color: #e52f94;
+    font-size: 40px;
+}
+
+.itensBanner p{
+    color: black;
+}
+
+.itensBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Bem Vindo*/
+.containerBemVindo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 80px;
+    text-align: justify;
+    gap: 100px;
+}
+
+.texto1,
+.texto2{
+    width: 50%;
+    font-size: 25px;
+    color: #3b3b3b;
+}
+
+.texto1 h4{
+    color: #F400A1;
+}
+
+/*beneficios*/
+.beneficios{
+    background-color: #ffcce2;
+    text-align: center;
+    padding: 10px;
+}
+
+.containerBeneficios h2{
+    color: #F400A1;
+    font-size: 25px;
+}
+
+.itensBeneficios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.itensBeneficios img{
+    width: 100px;
+    border-radius: 15px;
+}
+
+.itensBeneficios p{
+    color: #F400A1;
+}
+
+/*Avaliação*/
+.containerAvaliacao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    gap: 100px;
+}
+
+.cachorroAvaliacao img{
+    height: 300px;
+    margin-left: 50px;
+}
+
+.itensAvaliacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itensAvaliacao p{
+    color: #dc0076;
+    text-align: center;
+    font-size: 22px;
+}
+
+.itensAvaliacao form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rodape{
+background-color: #E1E5E7;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape img{
+    width: 80px;
+    align-items:  flex-end;
+}
+
+.containerRodape{
+    text-align: center;
+}
